@@ -5,5 +5,5 @@ package com.sumanth.practice.spark.loadingAndSaving
   */
 class Matrix(var name: String, var matrix: Seq[Double], var timeBuckets: Int, var paths:Int) extends java.io.Serializable {
 
-  override def toString = s"PFEMatrix($name, $matrix, $timeBuckets, $paths)"
+  override def toString = s"Matrix($name, $matrix, $timeBuckets, $paths)"
 }
